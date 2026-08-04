@@ -1,0 +1,16 @@
+# Local virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python execution files and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local offline tactical data ledgers
+*.db
+*.db-journal
