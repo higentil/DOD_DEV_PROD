@@ -26,7 +26,7 @@ def get_db_entries():
     except Exception:
         return []
 
-st.title("🪖 TOC TACTICAL OPERATIONS MONITOR")
+st.title("TOC TACTICAL OPERATIONS MONITOR")
 c_net1, c_net2, c_net3, c_btn = st.columns(4)
 c_net1.success("📡 MESH LINK: OPERATIONAL")
 c_net2.success("🔒 CIPHER: AES-256-GCM")
